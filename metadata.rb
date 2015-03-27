@@ -1,4 +1,4 @@
-name              "springboard-java"
+name              "java"
 maintainer        "Agile Orbit"
 maintainer_email  "info@agileorbit.com"
 license           "Apache 2.0"

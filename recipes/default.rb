@@ -24,5 +24,5 @@ if node['java']['install_flavor'] != 'windows'
   end
 end
 
-include_recipe "springboard-java::set_attributes_from_version"
-include_recipe "springboard-java::#{node['java']['install_flavor']}"
+include_recipe "java::set_attributes_from_version"
+include_recipe "java::#{node['java']['install_flavor']}"
